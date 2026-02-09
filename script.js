@@ -45,3 +45,5 @@ function toggleDropdown(id) {
 //     dropdownContent.style.display = 'none';
 //   }
 // }
+
+document.getElementById('year').textContent = new Date().getFullYear();
